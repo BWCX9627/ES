@@ -29,11 +29,9 @@
     console.log(name123)
 
   ```
-
-3. 参数默认值    
-
+3. 参数默认值  
+  
   ```js
-
     function show(a = 1){
       console.log(a)
     }
