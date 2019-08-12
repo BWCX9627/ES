@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul,
+        li {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" name="search">
+    <button id="btn">search</button>
+    <ul id="list">
+
+    </ul>
+</body>
+<script>
+    // var arr = [{
+    //         id: 0,
+    //         name: "宝马"
+    //     },
+    //     {
+    //         id: 1,
+    //         name: "宝军"
+    //     },
+    //     {
+    //         id: 2,
+    //         name: "鹏驰"
+    //     },
+    //     {
+    //         id: 3,
+    //         name: "鹏驰"
+    //     },
+    //     {
+    //         id: 4,
+    //         name: "鹏驰"
+    //     }
+    // ]
+
+    // function show(keyword) {
+    //     return arr1 = arr.filter((items) => {
+    //         return items.name.includes(keyword)||items.id.toString().includes(keyword);
+    //     });
+    // }
+    // document.querySelector("#btn").onclick = function () {
+    //     var text = document.querySelector("[name='search']").value;
+    //     var html = ``;
+    //     show(text).forEach((ele) => {
+    //         html += `<li>${ele.id}:${ele.name}</li>`
+    //     });
+    //     document.querySelector("#list").innerHTML = html;
+    // }
+    var show = ele => ele*2
+    console.log(show(2));
+</script>
+</html>
